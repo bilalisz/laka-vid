@@ -1,1 +1,6 @@
-console.log("za marra ")
+import 'dotenv/config'
+import connectDB from "./db/index.js";
+
+
+
+connectDB()
